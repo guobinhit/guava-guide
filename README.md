@@ -7,7 +7,7 @@
 	 - 前置条件：让你的方法更容易进行前置条件的检查。
 	 - 通用`Object`方法：简化`Object`方法的实现，例如`hashCode()`和`toString()`.
 	 - 排序：Guava 有强大且流畅的`Comparator`类。
-	 - 可抛的：简化异常和错误的检查机制。
+	 - [可抛的[Throwable]](https://github.com/guobinhit/guava-guide/blob/master/articles/throwable.md)：简化了异常和错误的检查及传播机制。
  - **集合[Collections]**：Guava 扩展了 JDK 的集合体系，这是 Guava 最成熟且最受欢迎的部分。
    - 不可变集合：为了进行防御性编程、使用常量集合和提高效率。
    - 新集合类型：提供了多集合、多 Map、多表、双向 Map 等。
@@ -44,3 +44,8 @@
 
  - **反射[Reflection]**：对应 Java 反射能力的 Guava 工具类。
 
+
+
+----------
+
+## 使用 Guava 的方法：
