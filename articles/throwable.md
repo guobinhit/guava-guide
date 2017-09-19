@@ -41,3 +41,8 @@ Guava 提供了三个有用的方法，使得异常链的研究更加简单，�
 | [List<<Throwable>Throwable> getCausalChain(Throwable)](http://google.github.io/guava/releases/snapshot/api/docs/com/google/common/base/Throwables.html#getRootCause(java.lang.Throwable)) | 
 | [String getStackTraceAsString(Throwable)](http://google.github.io/guava/releases/snapshot/api/docs/com/google/common/base/Throwables.html#getRootCause(java.lang.Throwable)) | 
 
+
+----------
+
+
+**原文链接**：[Google Guava - ThrowablesExplained](https://github.com/google/guava/wiki/ThrowablesExplained).
