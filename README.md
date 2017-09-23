@@ -4,7 +4,7 @@
 
  - **基础工具[Basic utilities]**：让我们更愉快的使用 Java 语言。
 	 - [使用和避免`null`](https://github.com/guobinhit/guava-guide/blob/master/articles/about-null.md)：`null`的定义很模糊，可能导致令人疑惑的错误，有时会让我们很不爽。很多的 Guava 工具类对`null`都是快速失败的，拒绝使用`null`，，而不是盲目的接收它们。
-	 - 前置条件：让你的方法更容易进行前置条件的检查。
+	 - [前置条件[Preconditons]](https://github.com/guobinhit/guava-guide/blob/master/articles/preconditions.md)：让你的方法更容易进行前置条件的检查。
 	 - 通用`Object`方法：简化`Object`方法的实现，例如`hashCode()`和`toString()`.
 	 - 排序：Guava 有强大且流畅的`Comparator`类。
 	 - [可抛的[Throwable]](https://github.com/guobinhit/guava-guide/blob/master/articles/throwable.md)：简化了异常和错误的检查及传播机制。
