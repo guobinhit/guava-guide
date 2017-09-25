@@ -3,9 +3,9 @@
  　　Guava 项目包含若干被 Google 的 Java 项目依赖的核心类库，例如：集合、缓存、原生类型支持、并发库、通用注解、字符串处理、I/O 等等。Google 的开发者们每天都在使用这些工具进行项目的开发。但是查阅 Javadoc 并不总是最有效的学习这些类库的方式。在这里，我们尝试为 Guava 中一些最受欢迎和最有用的功能提供更具可读性的说明。
 
  - **基础工具[Basic utilities]**：让我们更愉快的使用 Java 语言。
-	 - [使用和避免`null`](https://github.com/guobinhit/guava-guide/blob/master/articles/about-null.md)：`null`的定义很模糊，可能导致令人疑惑的错误，有时会让我们很不爽。很多的 Guava 工具类对`null`都是快速失败的，拒绝使用`null`，，而不是盲目的接收它们。
+	 - [使用和避免 null [Using and avoiding null]](https://github.com/guobinhit/guava-guide/blob/master/articles/about-null.md)：`null`的定义很模糊，可能导致令人疑惑的错误，有时会让我们很不爽。很多的 Guava 工具类对`null`都是快速失败的，拒绝使用`null`，，而不是盲目的接收它们。
 	 - [前置条件[Preconditons]](https://github.com/guobinhit/guava-guide/blob/master/articles/preconditions.md)：让你的方法更容易进行前置条件的检查。
-	 - 通用`Object`方法：简化`Object`方法的实现，例如`hashCode()`和`toString()`.
+	 - [通用 object 方法[Common object methods]](https://github.com/guobinhit/guava-guide/blob/master/articles/common-object-methods.md)：简化`Object`方法的实现，例如`hashCode()`和`toString()`.
 	 - 排序：Guava 有强大且流畅的`Comparator`类。
 	 - [可抛的[Throwable]](https://github.com/guobinhit/guava-guide/blob/master/articles/throwable.md)：简化了异常和错误的检查及传播机制。
  - **集合[Collections]**：Guava 扩展了 JDK 的集合体系，这是 Guava 最成熟且最受欢迎的部分。
@@ -69,4 +69,6 @@ dependencies {
 }
 ```
 
+---------
 
+English Original Editon: [Guava - User Guide](https://github.com/google/guava/wiki)
