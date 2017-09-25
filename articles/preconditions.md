@@ -36,4 +36,4 @@ checkArgument(i < j, "Expected i < j, but %s > %s", i, j);
 -------
 
 
-**翻译声明**：本文翻译自 GitHub，[Google Guava - PreconditionsExplained](https://github.com/google/guava/wiki/PreconditionsExplained).
+**原文链接**：[Google Guava - PreconditionsExplained](https://github.com/google/guava/wiki/PreconditionsExplained).
