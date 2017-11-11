@@ -6,13 +6,13 @@
 	 - [使用和避免 null [Using and avoiding null]](https://github.com/guobinhit/guava-guide/blob/master/articles/about-null.md)：`null`的定义很模糊，可能导致令人疑惑的错误，有时会让我们很不爽。很多的 Guava 工具类对`null`都是快速失败的，拒绝使用`null`，，而不是盲目的接收它们。
 	 - [前置条件[Preconditons]](https://github.com/guobinhit/guava-guide/blob/master/articles/preconditions.md)：让你的方法更容易进行前置条件的检查。
 	 - [通用 object 方法[Common object methods]](https://github.com/guobinhit/guava-guide/blob/master/articles/common-object-methods.md)：简化`Object`方法的实现，例如`hashCode()`和`toString()`.
-	 - 排序：Guava 有强大且流畅的`Comparator`类。
+	 - [排序[Ordering]](https://github.com/google/guava/wiki/OrderingExplained)：Guava 有强大且流畅的`Comparator`类。
 	 - [可抛的[Throwable]](https://github.com/guobinhit/guava-guide/blob/master/articles/throwable.md)：简化了异常和错误的检查及传播机制。
  - **集合[Collections]**：Guava 扩展了 JDK 的集合体系，这是 Guava 最成熟且最受欢迎的部分。
-   - 不可变集合：为了进行防御性编程、使用常量集合和提高效率。
-   - 新集合类型：提供了多集合、多 Map、多表、双向 Map 等。
-   - 强大的集合工具类：普通的操作并没有在`java.util.Collections`中提供。
-   - 扩展工具类：装饰`Collection`？实现`Iterator`？我们让类似的操作变的更简单。
+   - [不可变集合[Immutable Collections]](https://github.com/google/guava/wiki/ImmutableCollectionsExplained)：为了进行防御性编程、使用常量集合和提高效率。
+   - [新集合类型[New Collection Types]](https://github.com/google/guava/wiki/NewCollectionTypesExplained)：提供了多集合、多 Map、多表、双向 Map 等。
+   - [强大的集合工具类[Powerful Collection Utilities]](https://github.com/google/guava/wiki/CollectionUtilitiesExplained)：普通的操作并没有在`java.util.Collections`中提供。
+   - [扩展工具类[Extension Utilities]](https://github.com/google/guava/wiki/CollectionHelpersExplained)：装饰`Collection`？实现`Iterator`？我们让类似的操作变的更简单。
 
  - **图[Graphs]**：这是一个图结构数据的模型类库，它展现了实体以及图和实体之间的关系，主要的特点包括：
    - 图[Graph]：图的边缘是没有自己标识和信息的匿名实体。
