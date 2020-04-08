@@ -57,17 +57,29 @@
 <dependency>
   <groupId>com.google.guava</groupId>
   <artifactId>guava</artifactId>
-  <version>23.0</version>
+  <version>28.2-jre</version>
   <!-- or, for Android: -->
-  <version>23.0-android</version>
+  <version>28.2-android</version>
 </dependency>
 ```
+
 而如果我们使用 Gradle 进行项目管理，那么我们则需要在`config.gradle`中添加如下依赖：
+
 ```
 dependencies {
-  compile 'com.google.guava:guava:23.0'
-  // or, for Android:
-  compile 'com.google.guava:guava:23.0-android'
+  // Pick one:
+
+  // 1. Use Guava in your implementation only:
+  implementation("com.google.guava:guava:28.2-jre")
+
+  // 2. Use Guava types in your public API:
+  api("com.google.guava:guava:28.2-jre")
+
+  // 3. Android - Use Guava in your implementation only:
+  implementation("com.google.guava:guava:28.2-android")
+
+  // 4. Android - Use Guava types in your public API:
+  api("com.google.guava:guava:28.2-android")
 }
 ```
 
